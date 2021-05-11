@@ -40,7 +40,7 @@
 | ------    | ---------- | ------------------------------ |
 | text      | references | null: false                    |
 | user      | references | null: false, foreign_key: true |
-| phototype | references | null: false, foreign_key: true | 
+| prototype | references | null: false, foreign_key: true | 
 
 ### Association
 

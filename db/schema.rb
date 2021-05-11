@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 2021_05_10_023644) do
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_phototypes_on_user_id"
+    t.index ["user_id"], name: "index_prototypes_on_user_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
